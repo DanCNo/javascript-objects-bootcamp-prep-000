@@ -9,10 +9,12 @@ function updatePlaylist(playlist, artistName, songTitle) {
   //return Object.assign({}, playlist, {[artistName]: songTitle})
 }
 
-//updatePlaylist(playlist, 'Blind Pilot', 'Always');
-//console.log(playlist);
+updatePlaylist(playlist, 'Blind', 'Games');
+console.log(playlist);
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
   return playlist;
 }
+
+removeFromPlaylist(playlist, 'Blind Pilot');
