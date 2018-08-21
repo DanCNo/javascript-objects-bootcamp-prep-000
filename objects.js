@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
   //return Object.assign({}, playlist, {[artistName]: songTitle})
 }
 
-updatePlaylist(playlist, 'Blind', 'Games');
+updatePlaylist(playlist, artistName, songTitle);
 console.log(playlist);
 
 function removeFromPlaylist(playlist, artistName) {
