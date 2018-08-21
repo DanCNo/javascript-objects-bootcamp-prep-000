@@ -1,1 +1,1 @@
-var playlist = { 'Blind Pilot' : 'Always'};
+var playlist = { 'Blind Pilot' : 'Always', };
