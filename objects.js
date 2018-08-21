@@ -1,1 +1,11 @@
-var playlist = { 'Blind Pilot' : 'Always', };
+var playlist = { 'Blind Pilot' : 'Always', 'Run River North' : 'Salt Pond'};
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist.artistName = songTitle;
+  return playlist;
+}
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
+}
