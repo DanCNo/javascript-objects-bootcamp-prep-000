@@ -1,4 +1,4 @@
-var playlist = { 'Blind Pilot' : 'Always', 'Run River North' : 'Salt Pond'};
+var playlist = {};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist.artistName = songTitle;
