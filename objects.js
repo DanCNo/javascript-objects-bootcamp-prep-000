@@ -1,6 +1,7 @@
-var playlist = {};
-var artistName = '';
-var songTitle = '';
+var artistName = 'Blind Pilot';
+var songTitle = 'Always';
+var playlist = { artistName: songTitle};
+
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
