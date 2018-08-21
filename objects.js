@@ -7,7 +7,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 
-updatePlaylist(playlist, 'Blind Pilot', 'Always');
+updatePlaylist(playlist, Blind Pilot, 'Always');
 console.log(playlist);
 
 function removeFromPlaylist(playlist, artistName) {
