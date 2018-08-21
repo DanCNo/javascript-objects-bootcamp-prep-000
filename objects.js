@@ -1,6 +1,6 @@
 var playlist = {'Blind Pilot' : 'Always'};
-var artistName = 'Blind';
-var songTitle = 'Games';
+//var artistName = 'Blind';
+//var songTitle = 'Games';
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
@@ -8,12 +8,12 @@ function updatePlaylist(playlist, artistName, songTitle) {
   //return playlist.assign({}, playlist, {[artistName]: songTitle})
 }
 
-updatePlaylist(playlist, artistName, songTitle);
-console.log(playlist);
+//updatePlaylist(playlist, artistName, songTitle);
+//console.log(playlist);
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName;
+  delete playlist[artistName];
   return playlist;
 }
 
-removeFromPlaylist(playlist, 'Blind Pilot');
+//removeFromPlaylist(playlist, 'Blind Pilot');
