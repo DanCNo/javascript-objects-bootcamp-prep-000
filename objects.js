@@ -1,12 +1,9 @@
-var artistName = 'Blind Pilot';
-var songTitle = 'Always';
-var playlist = {};
-
+var playlist = {'Blind Pilot' : 'Always'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  //playlist.artistName = songTitle;
-  //return playlist;
-  return Object.assign({}, playlist, {[artistName]: songTitle})
+  playlist.artistName = songTitle;
+  return playlist;
+  //return playlist.assign({}, playlist, {[artistName]: songTitle})
 }
 
 updatePlaylist(playlist, artistName, songTitle);
